@@ -349,7 +349,8 @@ header #logo img {
         header h2{
 
 		width: 75%;	
-	        margin:0 auto;
+	       left:25%;
+		text-align:left;
 }
 
 
