@@ -53,6 +53,7 @@ header {
 /*ロゴ画像*/
 header #logo img {
 	display: block;
+	border-radius:50%;
 	width: 20%;	/*画像の幅*/
 	position: absolute;
 	left: 40%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
@@ -187,7 +188,8 @@ h2{
 }
 /*画像の設定*/
 .list img {
-	width: 15%;			/*画像幅*/
+	width: 15%;
+	border-radius:50%;/*画像幅*/
 	float: left;		/*画像を左に回り込み*/
 	margin-right: 3%	/*画像の右側に空けるスペース*/
 }
